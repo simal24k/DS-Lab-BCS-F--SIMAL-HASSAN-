@@ -74,7 +74,7 @@ bool checkPalindrome(LinkedList& L){
         first = first->next;
         sec = sec->next;
     }
-    slow->next = reverse(second); // restoring list
+    slow->next = reverse(second); 
     return ok;
 }
 
