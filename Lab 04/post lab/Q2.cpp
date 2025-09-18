@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void bubbleSort(int arr[], int n){
+void bubble(int arr[], int n){
     for(int pass=0; pass<n; pass++){
         for(int i=0; i<n-1; i++){
             if(arr[i] > arr[i+1]){
@@ -34,7 +34,7 @@ int main(){
     cout<<"Before sorting:"<<endl;
     showArr(nums,sz);
 
-    bubbleSort(nums,sz);
+    bubble(nums,sz);
 
     cout<<"After sorting:"<<endl;
     showArr(nums,sz);
