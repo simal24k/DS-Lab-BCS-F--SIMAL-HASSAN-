@@ -21,7 +21,7 @@ int IPsearch(int arr[], int n, int target) {
 
 int main(){
     int n;
-    cout << "Enter the number of elements in array : ";
+    cout << "Enter size of array : ";
     cin >> n;
     int* arr= new int[n];
 
